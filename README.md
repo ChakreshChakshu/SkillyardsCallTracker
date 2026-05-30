@@ -61,9 +61,7 @@ On the onboarding screen:
     git clone git@github.com:ChakreshChakshu/SkillyardsCallTracker.git
     ```
 2.  Open in **Android Studio Hedgehog** or newer.
-
-    ```properties
 4.  Build the APK:
-    ```bash
+    bash
     ./gradlew :app:assembleDebug
-    ```
+    
