@@ -36,22 +36,16 @@ To ensure the app isn't killed by the Android system, follow these steps:
 
 ### 3. Configuration
 On the onboarding screen:
-*   **Telecaller ID**: Enter your assigned UUID (e.g., `da4d0da0-6e3c-4cab-b611-71c11b73b85d`).
-*   **API Base URL**: `https://api.skillyards.in` (or your provided Ngrok URL).
+*   **Telecaller ID**: Enter your assigned UUID
 *   Tap **Activate Call Tracker**.
 
 ## 🔗 CRM Integration
 
-The app communicates with the CRM via a secure JSON endpoint.
-
-*   **Endpoint**: `POST /api/telephony/gsm-callback`
-*   **Security**: Requires `x-app-secret` header.
-
 ### Sample Payload
 ```json
 {
-  "telecaller_id": "da4d0da0-6e3c-4cab-b611-71c11b73b85d",
-  "to_number": "+919876543210",
+  "telecaller_id": "da4d0da0-6e3c-4cab-b611-xxxxxxxx",
+  "to_number": "+9198765xxxx",
   "call_duration_seconds": 45,
   "call_start_time": "2026-05-30T10:00:00Z",
   "call_direction": "outgoing",
@@ -67,19 +61,9 @@ The app communicates with the CRM via a secure JSON endpoint.
     git clone git@github.com:ChakreshChakshu/SkillyardsCallTracker.git
     ```
 2.  Open in **Android Studio Hedgehog** or newer.
-3.  Ensure your `local.properties` contains:
+
     ```properties
-    CALL_TRACKER_SECRET=f8fe36033866cd8b2630e77a3322784d
-    ```
 4.  Build the APK:
     ```bash
     ./gradlew :app:assembleDebug
     ```
-
-## 📝 Troubleshooting
-
-If calls are not being uploaded:
-1.  Open the app and tap **View Logs**.
-2.  Look for `Recovered number from CallLog`.
-3.  Verify that `CRM Upload SUCCESS` appears after the call ends.
-4.  Ensure **Auto-Call Recording** is enabled in your phone's Dialer settings.
