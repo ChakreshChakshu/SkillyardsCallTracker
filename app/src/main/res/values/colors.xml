@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SkillYards Custom Branding Palette -->
+    <color name="brand_primary">#FFC107</color> <!-- Rich Gold Accent -->
+    <color name="brand_primary_variant">#FFA000</color>
+    <color name="brand_background">#0F0F1A</color> <!-- Deep Space Background -->
+    <color name="brand_surface">#17172B</color> <!-- Elevated Card Surface -->
+    <color name="brand_surface_variant">#24243E</color>
+    <color name="brand_on_surface">#FFFFFF</color>
+    <color name="brand_on_surface_muted">#8E8E9F</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- State & Validation Indicators -->
+    <color name="state_active">#10B981</color> <!-- Vibrant Success Emerald Green -->
+    <color name="state_inactive">#EF4444</color> <!-- Vivid Alert Red -->
+    <color name="state_warning">#F59E0B</color> <!-- Warning Yellow -->
+</resources>

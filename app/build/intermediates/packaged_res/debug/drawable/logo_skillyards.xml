@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Inner glowing ambient ring -->
+    <path
+        android:pathData="M60,10 C87.6,10 110,32.4 110,60 C110,87.6 87.6,110 60,110 C32.4,110 10,87.6 10,60 C10,32.4 32.4,10 60,10 Z"
+        android:strokeWidth="4"
+        android:strokeColor="#FFC107"
+        android:strokeLineCap="round"/>
+    
+    <!-- Outer accent arc -->
+    <path
+        android:pathData="M25,25 A50,50 0 0,1 95,25"
+        android:strokeWidth="6"
+        android:strokeColor="#FFA000"
+        android:strokeLineCap="round"/>
+    
+    <!-- Central stylized "S" ribbon representing SkillYards -->
+    <path
+        android:pathData="M45,45 C45,38 52,35 60,35 C68,35 75,38 75,45 C75,52 68,55 60,57 C50,60 45,64 45,72 C45,80 52,85 60,85 C68,85 75,80 75,72"
+        android:strokeWidth="8"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    
+    <!-- Graduation crown / arrow highlights -->
+    <path
+        android:pathData="M60,20 L66,30 L54,30 Z"
+        android:fillColor="#FFC107"/>
+</vector>

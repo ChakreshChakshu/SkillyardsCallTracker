@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="brand_background">#0F0F1A</color>
+    <color name="brand_on_surface">#FFFFFF</color>
+    <color name="brand_on_surface_muted">#8E8E9F</color>
+    <color name="brand_primary">#FFC107</color>
+    <color name="brand_primary_variant">#FFA000</color>
+    <color name="brand_surface">#17172B</color>
+    <color name="brand_surface_variant">#24243E</color>
+    <color name="state_active">#10B981</color>
+    <color name="state_inactive">#EF4444</color>
+    <color name="state_warning">#F59E0B</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">SkillYards Call Tracker</string>
+    <string name="autostart_dialog_msg">Xiaomi/Redmi ROMs aggressively terminate background processes. To log calls silently, please enable "Autostart" for SkillYards Call Tracker in your device settings.</string>
+    <string name="autostart_dialog_title">MIUI Autostart Recommended</string>
+    <string name="btn_activate">Activate Call Tracker</string>
+    <string name="btn_dismiss">Got it</string>
+    <string name="btn_open_settings">Configure Autostart</string>
+    <string name="hint_api_url">e.g. https://api.skillyards.in</string>
+    <string name="hint_telecaller_id">Enter UUID (assigned by manager)</string>
+    <string name="label_api_url">API Base URL</string>
+    <string name="label_telecaller_id">Your Telecaller ID</string>
+    <string name="last_upload_label">Last Upload: </string>
+    <string name="last_upload_never">Never</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="status_label">Status: </string>
+    <string name="subtitle_onboarding">Background service — configure once, runs automatically</string>
+    <string name="title_onboarding">SkillYards Call Tracker</string>
+    <string name="toast_activated">Call tracker active. You can close this app.</string>
+    <string name="toast_invalid_url">Invalid: Please provide a valid HTTP/HTTPS API URL.</string>
+    <string name="toast_invalid_uuid">Invalid: Telecaller ID must be a valid UUID.</string>
+    <string name="toast_permissions_needed">Permissions required: Please grant all requested permissions to run call-tracking.</string>
+    <string name="view_log_btn">View Logs</string>
+    <style name="Theme.SkillyardsCallTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_variant</item>
+        
+        
+        <item name="android:windowBackground">@color/brand_background</item>
+        <item name="android:statusBarColor">@color/brand_background</item>
+        <item name="android:navigationBarColor">@color/brand_background</item>
+    </style>
+</resources>

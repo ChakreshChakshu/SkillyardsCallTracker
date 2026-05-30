@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SkillYards Call Tracker</string>
+    <string name="title_onboarding">SkillYards Call Tracker</string>
+    <string name="subtitle_onboarding">Background service — configure once, runs automatically</string>
+    <string name="label_telecaller_id">Your Telecaller ID</string>
+    <string name="hint_telecaller_id">Enter UUID (assigned by manager)</string>
+    <string name="label_api_url">API Base URL</string>
+    <string name="hint_api_url">e.g. https://api.skillyards.in</string>
+    <string name="btn_activate">Activate Call Tracker</string>
+    <string name="status_label">Status: </string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="last_upload_label">Last Upload: </string>
+    <string name="last_upload_never">Never</string>
+    <string name="view_log_btn">View Logs</string>
+    
+    <!-- Dialog & Error Strings -->
+    <string name="autostart_dialog_title">MIUI Autostart Recommended</string>
+    <string name="autostart_dialog_msg">Xiaomi/Redmi ROMs aggressively terminate background processes. To log calls silently, please enable "Autostart" for SkillYards Call Tracker in your device settings.</string>
+    <string name="btn_open_settings">Configure Autostart</string>
+    <string name="btn_dismiss">Got it</string>
+    <string name="toast_activated">Call tracker active. You can close this app.</string>
+    <string name="toast_invalid_uuid">Invalid: Telecaller ID must be a valid UUID.</string>
+    <string name="toast_invalid_url">Invalid: Please provide a valid HTTP/HTTPS API URL.</string>
+    <string name="toast_permissions_needed">Permissions required: Please grant all requested permissions to run call-tracking.</string>
+</resources>

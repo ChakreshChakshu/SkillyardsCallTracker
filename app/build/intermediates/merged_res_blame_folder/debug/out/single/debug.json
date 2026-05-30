@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "in.skillyards.calltracker.app-merged_res-39:/layout_activity_onboarding.xml.flat",
+        "source": "in.skillyards.calltracker.app-main-41:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "in.skillyards.calltracker.app-merged_res-39:/drawable_ic_call_tracker.xml.flat",
+        "source": "in.skillyards.calltracker.app-main-41:/drawable/ic_call_tracker.xml"
+    },
+    {
+        "merged": "in.skillyards.calltracker.app-merged_res-39:/layout_dialog_logs_viewer.xml.flat",
+        "source": "in.skillyards.calltracker.app-main-41:/layout/dialog_logs_viewer.xml"
+    },
+    {
+        "merged": "in.skillyards.calltracker.app-merged_res-39:/drawable_logo_skillyards.xml.flat",
+        "source": "in.skillyards.calltracker.app-main-41:/drawable/logo_skillyards.xml"
+    }
+]
